@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@700&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  color: #78350f;
+  background-color: #fffbeb;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+#text-area {
+  font-size: 1rem;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  width: 60%;
+  height: 20vh;
+  outline: none;
+  border: 1.5px solid #78350f;
+  border-radius: 1rem;
+  background-color: #fef3c7;
+  color: #78350f;
+}
+.logo {
+  width: 80%;
+  margin: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #78350f;
+}
+.mid-section {
+  width: 60%;
+}
+button {
+  background-color: #78350f;
+  color: #fffbeb;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin: 0.7rem 0rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+h2 {
+  margin-bottom: 0.7rem;
+}
+.output {
+  background-color: #fef3c7;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 60%;
+  border: 1px solid #78350f;
+  height: 20vh;
+}
+footer {
+  border-top: 3px solid #78350f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 1rem;
+}
+footer h3 {
+  font-size: 1.4rem;
+  padding: 0.3rem;
+}
+footer p {
+  width: 70%;
+  text-align: justify;
+}
