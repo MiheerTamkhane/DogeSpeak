@@ -4,6 +4,7 @@ const button = document.querySelector("button");
 const inputText = document.querySelector("#text-area");
 const outputDiv = document.querySelector(".output");
 const getURL = (text) => {
+  console.log(text);
   return serverURL + "?text=" + text;
 };
 
